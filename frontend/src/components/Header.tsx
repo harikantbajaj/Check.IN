@@ -9,7 +9,7 @@ const Header = () => {
     <div className="bg-gray-900 py-6">
       <div className="container mx-auto flex justify-between">
         <span className="text-3xl text-white font-bold tracking-tight ">
-          <Link to="/">Check.IN</Link>
+          <Link to="/">Check. IN</Link>
         </span>
         <span className="flex space-x-2">
           {isLoggedIn ? (
@@ -33,7 +33,7 @@ const Header = () => {
               to="/sign-in"
               className="flex bg-gray-900 items-center text-white px-3 font-bold hover:bg-gray-800"
             >
-              Sign In
+              Sign In/Log In
             </Link>
           )}
         </span>
